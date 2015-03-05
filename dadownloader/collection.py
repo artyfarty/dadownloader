@@ -99,7 +99,10 @@ class Collection:
 
             # Push the deviation into the collection
             for j in range(len(deviations)):
-                self.pushFav(deviations[j], index=(j+1+i*24))
+            	try:
+                    self.pushFav(deviations[j], index=(j+1+i*24))
+                except:
+                    continue
                 if self.avatars:
                     self.collection[-1].downloadAvatar()
                 if self.descriptions:
