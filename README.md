@@ -1,3 +1,6 @@
+# This fork
+THis fork will not crash on deviations that are broken for any reason
+
 # DeviantArt Downloader
 
 <center>![dadl](https://raw.githubusercontent.com/Galadirith/dadownloader/master/imgs/dadownloader-shadow.png)</center>
@@ -8,7 +11,7 @@ A simple python program to help you download your favourite deviations from
 ## Installation
 
 ````bash
-$ pip install https://github.com/Galadirith/dadownloader/archive/master.zip
+$ pip install https://github.com/artyfarty/dadownloader/archive/master.zip
 ````
 
 ### Requirements
